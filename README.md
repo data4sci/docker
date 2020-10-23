@@ -4,7 +4,11 @@
 
 
 `# docker pull alpine`
-`# docker run -t -d name mujkontejner alpine`
-`# docker ps`
-`# docker exec -it mujkontejner bash`
 
+`# docker run -t -d name mujkontejner alpine`
+
+`# docker ps`
+
+`# docker exec -it mujkontejner /bin/bash`
+
+`# docker cp <file> <container_id>:/path/to/copy`
