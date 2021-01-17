@@ -46,4 +46,8 @@ přepínače
 
 ## docker compose
 
+install 
+
+[How to Install Docker Compose on Ubuntu 18.04 {Quick Start}](https://phoenixnap.com/kb/install-docker-compose-ubuntu)
+
 
