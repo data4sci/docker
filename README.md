@@ -10,7 +10,9 @@
 * A **Docker container** that exists is either *running* or it isn’t.
 
 
-## install non root
+## install docker
+
+[Install Docker and Docker Compose on Linux Mint 19 | ComputingForGeeks](https://computingforgeeks.com/install-docker-and-docker-compose-on-linux-mint-19/)
 
 [Run the Docker daemon as a non-root user (Rootless mode) | Docker Documentation](https://docs.docker.com/engine/security/rootless/)
 
