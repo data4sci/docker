@@ -16,6 +16,11 @@
 
 [Run the Docker daemon as a non-root user (Rootless mode) | Docker Documentation](https://docs.docker.com/engine/security/rootless/)
 
+```bash
+sudo apt-get -y  install docker-ce docker-compose
+sudo usermod -aG docker $USER
+#reboot!
+```
 
 ## basic commands
 
@@ -47,9 +52,6 @@ přepínače
 * `--name jupyter` Assign a name to the container
 
 ## docker compose
-
-install 
-
-[How to Install Docker Compose on Ubuntu 18.04 {Quick Start}](https://phoenixnap.com/kb/install-docker-compose-ubuntu)
-
-
+```bash
+docker-compose up -d
+```
