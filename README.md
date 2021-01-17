@@ -9,6 +9,12 @@
 * A **Docker container** either *exists* or it doesn’t.
 * A **Docker container** that exists is either *running* or it isn’t.
 
+
+## install non root
+
+[Run the Docker daemon as a non-root user (Rootless mode) | Docker Documentation](https://docs.docker.com/engine/security/rootless/)
+
+
 ## basic commands
 
 stažení kontejneru
