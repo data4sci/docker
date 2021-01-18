@@ -27,6 +27,9 @@ sudo usermod -aG docker $USER
 stažení kontejneru
 `# docker pull alpine`
 
+výpis docker images
+`docker images`
+
 vytvoření kontejneru (minimal Linux distro Alpine)
 `# docker create muj-alpine-kontejner alpine`
 
