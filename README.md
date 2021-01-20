@@ -2,6 +2,8 @@
 
 <https://www.youtube.com/watch?v=7-7p6WuDtbs>
 
+[extremely useful docker commands - CodeNotary](https://www.codenotary.com/blog/extremely-useful-docker-commands/)
+
 [15 Docker Commands You Should Know | by Jeff Hale | Towards Data Science](https://towardsdatascience.com/15-docker-commands-you-should-know-970ea5203421)
 
 
@@ -39,7 +41,9 @@ spuštění kontejneru
 `docker run -d -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":/home/jovyan/work jupyter/datascience-notebook:9b06df75e445`
 
 stopnutí kontejneru
-`# docker my-container stop`
+`docker my-container stop`
+
+`docker stop $(docker ps -aq)` všechny běžící
 
 výpis běžících kontejnerů
 `# docker ps`
