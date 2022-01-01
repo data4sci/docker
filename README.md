@@ -33,12 +33,15 @@ výpis docker images
 `docker images`
 
 vytvoření kontejneru (minimal Linux distro Alpine)
-`# docker create muj-alpine-kontejner alpine`
+`docker create muj-alpine-kontejner alpine`
 
 spuštění kontejneru
 `# docker run -t -d --name mujkontejner alpine`
 
 `docker run -d -p 8888:8888 -e JUPYTER_ENABLE_LAB=yes -v "$PWD":/home/jovyan/work jupyter/datascience-notebook:9b06df75e445`
+
+build kontejneru z `Dockerfile`
+`docker build -t my-python-app .`
 
 stopnutí kontejneru
 `docker my-container stop`
@@ -46,13 +49,13 @@ stopnutí kontejneru
 `docker stop $(docker ps -aq)` všechny běžící
 
 výpis běžících kontejnerů
-`# docker ps`
+`docker ps`
 
 otevřít bash v kontejneru
-`# docker exec -it mujkontejner /bin/bash`
+`docker exec -it mujkontejner /bin/bash`
 
 kopie kontejneru
-`# docker cp <file> <container_id>:/path/to/copy`
+`docker cp <file> <container_id>:/path/to/copy`
 
 přepínače
 `sudo docker run -d -p 8888:8888 --name jupyter jupyter/scipy-notebook`
