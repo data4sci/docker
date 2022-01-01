@@ -43,6 +43,9 @@ spuštění kontejneru
 build kontejneru z `Dockerfile`
 `docker build -t my-python-app .`
 
+run
+`docker run -it --rm --name my-running-app my-python-app`
+
 stopnutí kontejneru
 `docker my-container stop`
 
